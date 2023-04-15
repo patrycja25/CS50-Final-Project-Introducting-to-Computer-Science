@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Submit
+{% endblock %}
+
+{% block body %}
+    <h1>Thank You!</h1>
+    <p>Thank you for completing our survey. Here is a summary of your responses:</p>
+    <ul>
+        <li>Name: {{ name }}</li>
+        <li>Gender: {{ gender }}</li>
+        <li>Danced before: {{ danced_before }}</li>
+        <li>How often: {{ how_often }}</li>
+        <li>Encouraged by: {{ encouraged }}</li>
+        <li>Planning to attend: {{ planning }}</li>
+    </ul>
+{% endblock %}

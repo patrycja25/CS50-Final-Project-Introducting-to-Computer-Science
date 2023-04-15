@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block title %}
+   Table
+{% endblock %}
+
+{% block body %}
+    <h1>Answers</h1>
+    <table>
+        <tr>
+          <th>name</th>
+          <th>gender</th>
+          <th>danced_before</th>
+          <th>how_often</th>
+          <th>encouraged</th>
+          <th>planning</th>
+        </tr>
+          {% for row in rows %}
+        <tr>
+          <td>{{ row[0] }}</td>
+          <td>{{ row[1] }}</td>
+          <td>{{ row[2] }}</td>
+          <td>{{ row[3] }}</td>
+          <td>{{ row[4] }}</td>
+          <td>{{ row[5] }}</td>
+        </tr>
+          {% endfor %}
+
+      </table>
+
+{% endblock %}

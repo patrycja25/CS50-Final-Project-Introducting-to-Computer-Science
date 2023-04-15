@@ -1,0 +1,205 @@
+{% extends "layout.html" %}
+
+{% block head %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+{% endblock %}
+
+{% block title %}
+    Results
+{% endblock %}
+
+{% block main %}
+<section class="results">
+    <h1><p>Results of surveys will be there soon.</p></h1><br>
+    <h2><p>Exemplary results</p></h2><br>
+    <h3><p>The data has been made up and does not constitute reliable research material.</p></h3><br><br>
+</section>
+
+<section class="row">
+<div class="col-md-6">
+<section class="results1">
+    <h3><p>Question 1</p></h3>
+    <canvas id="myChart1" style="width:100%;max-width:700px"></canvas>
+    <script>
+        var xValues = ["Female", "Male", "I do not want to ask to this question"];
+        var yValues = [55, 40, 5];
+        var barColors = ["MediumPurple", "LightSkyBlue","PaleVioletRed"];
+
+
+        new Chart("myChart1", {
+    type: "pie",
+    data: {
+        labels: xValues,
+        datasets: [{
+        backgroundColor: barColors,
+        data: yValues
+        }]
+    },
+    options: {
+        title: {
+        display: true,
+        text: "What's your gender identity?"
+        }
+    }
+    });
+
+    </script><br>
+</section>
+</div>
+
+<div class="col-md-6">
+<section class="results2">
+    <h3><p>Question 2</p></h3>
+
+    <canvas id="myChart2" style="width:100%;max-width:700px"></canvas>
+    <script>
+        var xValues = ["Yes", "No"];
+        var yValues = [40, 60];
+        var barColors = ["MediumPurple", "LightSkyBlue"];
+
+
+        new Chart("myChart2", {
+    type: "doughnut",
+    data: {
+        labels: xValues,
+        datasets: [{
+        backgroundColor: barColors,
+        data: yValues
+        }]
+    },
+    options: {
+        title: {
+        display: true,
+        text: "Have you danced before (on dance classes)?"
+        }
+    }
+    });
+
+    </script>
+</section>
+</div>
+</section>
+
+<section class="row">
+<div class="col-md-6">
+<section class="results1">
+    <h3><p>Question 3</p></h3>
+
+    <canvas id="myChart3" style="width:100%;max-width:700px"></canvas>
+    <script>
+
+        var xValues = ["Every day", "Often", "Sometimes", "Rarely", "Never"];
+        var yValues = [12, 25, 20, 30, 13];
+        var barColors = ["MediumPurple", "LightSkyBlue","PaleVioletRed","Tomato","LightSeaGreen"];
+
+        new Chart("myChart3", {
+        type: "bar",
+        data: {
+            labels: xValues,
+            datasets: [{
+            backgroundColor: barColors,
+            data: yValues
+            }]
+        },
+        options: {
+            legend: { display: false },
+            title: {
+                display: true,
+                text: 'How often do you dance?'
+            },
+            scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
+    }
+});
+</script>
+</section>
+</div>
+
+
+<div class="col-md-6">
+<section class="results2">
+    <h3><p>Question 4</p></h3>
+
+    <canvas id="myChart4" style="width:100%;max-width:700px"></canvas>
+    <script>
+
+        var xValues = ["Yes", "No", "Maybe", "I was already interested in dancing before."];
+        var yValues = [35, 5, 40, 20];
+        var barColors = ["MediumPurple", "LightSkyBlue","PaleVioletRed","Tomato"];
+
+        new Chart("myChart4", {
+        type: "bar",
+        data: {
+            labels: xValues,
+            datasets: [{
+            backgroundColor: barColors,
+            data: yValues
+            }]
+        },
+        options: {
+            legend: { display: false },
+            title: {
+                display: true,
+                text: 'Did I encourage you to dance?'
+            },
+            scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
+    }
+});
+</script>
+</section>
+</div>
+</section>
+
+<section class="row">
+<div class="col-md-6">
+<section class="results1">
+    <h3><p>Question 5</p></h3>
+
+    <canvas id="myChart5" style="width:100%;max-width:700px"></canvas>
+    <script>
+
+        var xValues = ["Yes", "No", "Maybe", "I'm already taking dance classes"];
+        var yValues = [22, 23, 33, 22];
+        var barColors = ["MediumPurple", "LightSkyBlue","PaleVioletRed","Tomato"];
+
+        new Chart("myChart5", {
+        type: "bar",
+        data: {
+            labels: xValues,
+            datasets: [{
+            backgroundColor: barColors,
+            data: yValues
+            }]
+        },
+        options: {
+            legend: { display: false },
+            title: {
+                display: true,
+                text: 'Are you planning to sign up for dance classes?'
+            },
+            scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
+    }
+});
+</script>
+</section>
+</div>
+</section>
+
+{% endblock %}

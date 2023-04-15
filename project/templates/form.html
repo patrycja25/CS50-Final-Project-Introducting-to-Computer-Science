@@ -1,0 +1,71 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Form
+{% endblock %}
+
+{% block main %}
+
+<section class="form">
+<h2>Voluntary survey</h2>
+
+	<form action="/submit" method="POST">
+		<label for="name" placeholder="Name">Name:</label>
+		<input autofocus placeholder="Name" type="text" id="name" name="name" required>
+
+		<br><br>
+
+        <p>Question 1: What's your gender identity?</p>
+            <input type="radio" id="a1" name="q1" value="a" required>
+            <label for="a1">a) Female</label><br>
+            <input type="radio" id="b1" name="q1" value="b" required>
+            <label for="b1">b) Male</label><br>
+            <input type="radio" id="c1" name="q1" value="c" required>
+            <label for="c1">c)  I do not want to ask to this question</label><br>
+
+		<p>Question 2: Have you danced before (on dance classes)?</p>
+            <input type="radio" id="a2" name="q2" value="a" required>
+            <label for="a2">a) Yes</label><br>
+            <input type="radio" id="b2" name="q2" value="b" required>
+            <label for="b2">b) No</label><br>
+
+
+        <p>Question 3: How often do you dance?</p>
+            <input type="radio" id="a3" name="q3" value="a" required>
+            <label for="a3">a) Every day</label><br>
+            <input type="radio" id="b3" name="q3" value="b" required>
+            <label for="b3">b) Often</label><br>
+            <input type="radio" id="c3" name="q3" value="c" required>
+            <label for="c3">c) Sometimes</label><br>
+            <input type="radio" id="d3" name="q3" value="d" required>
+            <label for="d3">d) Rarely</label><br>
+            <input type="radio" id="e3" name="q3" value="e" required>
+            <label for="e3">e) Never</label><br>
+
+        <p>Question 4: Did I encourage you to dance?</p>
+            <input type="radio" id="a4" name="q4" value="a" required>
+            <label for="a4">a) Yes</label><br>
+            <input type="radio" id="b4" name="q4" value="b" required>
+            <label for="b4">b) No</label><br>
+            <input type="radio" id="c4" name="q4" value="c" required>
+            <label for="c4">c) Maybe</label><br>
+            <input type="radio" id="d4" name="q4" value="d" required>
+            <label for="d4">d) I was already interested in dancing before.</label><br>
+
+        <p>Question 5: Are you planning to sign up for dance classes?</p>
+            <input type="radio" id="a5" name="q5" value="a" required>
+            <label for="a5">a) Yes</label><br>
+            <input type="radio" id="b5" name="q5" value="b" required>
+            <label for="b5">b) No</label><br>
+            <input type="radio" id="c5" name="q5" value="c" required>
+            <label for="c5">c) Maybe</label><br>
+            <input type="radio" id="d5" name="q5" value="d" required>
+            <label for="d5">d) I'm already taking dance classes</label><br>
+
+
+		<input type="submit" value="Submit">
+	</form>
+</section>
+
+
+{% endblock %}

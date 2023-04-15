@@ -1,0 +1,192 @@
+/* Size for brand */
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+
+
+
+
+.logo
+{
+    border-radius: 55px;
+    width: 300px;
+    height: 300px;
+}
+
+img
+{
+    border-radius: 5px 30px 5px 30px;
+    display: block;
+    margin: 10px auto 25px auto;
+}
+
+#Ballet p, #Ballroom p, #Contemporary p, #Hip-Hop p, #Jazz p, #Tap\ Dancing p, #Folk\ Dance p, #Irish\ Dance p, #Modern\ Dance p, #Swing\ Dance p
+{
+    margin-bottom: 25px;
+}
+
+
+
+
+ol
+{
+    text-align: left;
+}
+
+li
+{
+    text-align: left;
+}
+
+iframe
+{
+    display: block;
+    margin: 0 auto;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.left
+{
+    text-align: left;
+}
+
+.sectionc {
+    border: 2px solid SlateGray; /* prosta ramka o grubości 2 pikseli i niebieskim kolorze */
+    border-radius: 10px; /* zaokrąglone rogi o promieniu 10 pikseli */
+    padding: 20px; /* dodanie odstępu wewnątrz ramki */
+    font-size:1.1em;
+    background-color: MediumPurple;
+    width: 40%;
+    margin-left: 25%;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+.sectionr {
+    border: 2px solid SlateGray; /* prosta ramka o grubości 2 pikseli i niebieskim kolorze */
+    border-radius: 10px; /* zaokrąglone rogi o promieniu 10 pikseli */
+    padding: 20px; /* dodanie odstępu wewnątrz ramki */
+    font-size:1.1em;
+    background-color: LightSkyBlue;
+    max-width: 50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.sectionl {
+    border: 2px solid SlateGray; /* prosta ramka o grubości 2 pikseli i niebieskim kolorze */
+    border-radius: 10px; /* zaokrąglone rogi o promieniu 10 pikseli */
+    padding: 20px; /* dodanie odstępu wewnątrz ramki */
+    font-size:1.1em;
+    background-color: PaleVioletRed;
+    width: 50%;
+    margin-left: 50%;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.title
+{
+    border: 2px solid SlateGray; /* prosta ramka o grubości 2 pikseli i niebieskim kolorze */
+    border-radius: 10px; /* zaokrąglone rogi o promieniu 10 pikseli */
+    padding: 20px; /* dodanie odstępu wewnątrz ramki */
+    font-size:1.1em;
+    background-color: Tomato;
+    width: 40%;
+    margin-left: 25%;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.form
+{
+    border: 2px solid SlateGray; /* prosta ramka o grubości 2 pikseli i niebieskim kolorze */
+    border-radius: 10px; /* zaokrąglone rogi o promieniu 10 pikseli */
+    padding: 20px; /* dodanie odstępu wewnątrz ramki */
+    font-size:1.1em;
+    background-color: LightCyan;
+    width: 40%;
+    margin-left: 25%;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.results1, .results2 {
+    border: 2px solid SlateGray; /* prosta ramka o grubości 2 pikseli i niebieskim kolorze */
+    border-radius: 10px; /* zaokrąglone rogi o promieniu 10 pikseli */
+    padding: 20px; /* dodanie odstępu wewnątrz ramki */
+    font-size: 1.1em;
+    background-color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+.background-image {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/006/210/661/original/dance-silhouette-set-free-vector.jpg");
+    background-size: cover;
+  }
+
+.results{
+    border: 2px solid SlateGray; /* prosta ramka o grubości 2 pikseli i niebieskim kolorze */
+    border-radius: 10px; /* zaokrąglone rogi o promieniu 10 pikseli */
+    padding: 20px; /* dodanie odstępu wewnątrz ramki */
+    font-size:1.1em;
+    background-color: white;
+    width: 40%;
+    margin-left: 30%;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.thanks{
+    border: 2px solid SlateGray; /* prosta ramka o grubości 2 pikseli i niebieskim kolorze */
+    border-radius: 10px; /* zaokrąglone rogi o promieniu 10 pikseli */
+    padding: 20px; /* dodanie odstępu wewnątrz ramki */
+    font-size:1.1em;
+    background-color: white;
+    width: 40%;
+    margin-left: 30%;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+
+
+
+
+
+
+
+
